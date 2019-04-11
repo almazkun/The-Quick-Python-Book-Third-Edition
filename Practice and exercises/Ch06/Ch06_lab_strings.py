@@ -1,4 +1,4 @@
-with open('moby_01.txt') as infile, open('moby_01_clean', 'w') as outfile:
+with open('moby_01.txt') as infile, open('moby_01_clean.txt', 'w') as outfile:
     for word in infile:
         word.lower()
         text = word.translate('-')
