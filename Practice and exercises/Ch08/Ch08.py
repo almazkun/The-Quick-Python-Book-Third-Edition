@@ -33,3 +33,13 @@ elif number < 5:
 else:
     print('Very high')
 
+
+## Try this: Comprehension
+x = [1, -2, 3, -4, 5, -6, 7, -8, 9, -10]
+x = [i for i in x if i > 0]
+
+
+x = [i for i in range(100) if i % 2]
+
+
+x = {i: i**3 for i in range(11, 16)}
