@@ -43,3 +43,18 @@ x = [i for i in range(100) if i % 2]
 
 
 x = {i: i**3 for i in range(11, 16)}
+
+
+## Try This: Ligical expressions and is True
+1 == True
+
+0 == False
+
+-1 == True
+
+[0] True
+
+1 and 0 == False
+
+1 > 0 or [] == True
+
