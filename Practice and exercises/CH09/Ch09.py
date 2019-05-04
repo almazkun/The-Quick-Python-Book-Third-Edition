@@ -34,6 +34,6 @@ def reversed(*params):
     x = []
     for i in params:
         x.append(i)
-    rev = x.reverse()
-    print(x, rev)
+    x.reverse()
+    print(x)
 
